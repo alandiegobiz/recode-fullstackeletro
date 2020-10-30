@@ -53,6 +53,10 @@
                     <li onclick="exibir_categoria('lavaroupas')">Lavadoura de roupas (2)</li>
                     <li onclick="exibir_categoria('lavaloucas')">Lava-louças (2)</li>
                 </ol>
+                <br>
+                <form action="pedidos.php" method="post">
+                        <button type="submit">Solicitar envio</button>
+                </form>
             </section>
                 <div class="categorias">
 
@@ -93,7 +97,7 @@
 
         <footer class="rodape">
             <p id="formas_pagamento"><b>Formas de pagamento:</b></p>
-            <img src="./imagens/formas_pagamento2.png" alt="Formas de pagamento">
+            <img src="https://1.bp.blogspot.com/-OgfYbeqVrrs/T9YJPOvu5uI/AAAAAAAACno/jg-6zRGn7Zs/s1600/pagamento.png" alt="Formas de pagamento">
             <p>&copy; Recode Pro</p>
         </footer>
         </main>

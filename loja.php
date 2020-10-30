@@ -63,7 +63,7 @@
 
             <footer class="rodape">
                 <p id="formas_pagamento"><b>Formas de pagamento:</b></p>
-                <img src="./imagens/formas_pagamento2.png" alt="Formas de pagamento">
+                <img src="https://1.bp.blogspot.com/-OgfYbeqVrrs/T9YJPOvu5uI/AAAAAAAACno/jg-6zRGn7Zs/s1600/pagamento.png" alt="Formas de pagamento">
                 <p>&copy; Recode Pro</p>
             </footer>
         </main>

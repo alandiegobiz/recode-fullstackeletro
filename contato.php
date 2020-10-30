@@ -62,7 +62,7 @@
 
             <br><br><br><br>
 
-            <form method="post" acrtion="" class="sugestao">
+            <form method="post" action="" class="sugestao">
                 <div class="comentarios">
                     <h4>Nome: </h4>
                     <input type="text" name="nome" style="width: 500px"><br>
