@@ -1,32 +1,3 @@
-<?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "fullstackeletro";
-
-    // Criando a conexão com banco de dados Mysql
-
-    $conn = mysqli_connect($servername, $username, $password, $database);
-
-    // Verificando a conexão
-    if (!$conn) {
-        die("A conexão ao BD falhou: " . mysqli_connect_error());
-    }
-
-    if (isset($_POST['nome_cliente']) && isset($_POST['endereco']) && isset($_POST['telefone']) && isset($_POST['descricao']) && isset($_POST['preco_venda']) && isset($_POST['quantidade'])) {
-        $nome_cliente = $_POST['nome_cliente'];
-        $endereco = $_POST['endereco'];
-        $telefone = $_POST['telefone'];
-        $descricao = $_POST['descricao'];
-        $preco_venda = $_POST['preco_venda'];
-        $quantidade= $_POST['quantidade'];
-
-        $sql = "insert into pedidos (nome_cliente, endereco, telefone, descricao, preco_venda, quantidade) values ('$nome_cliente', '$endereco', '$telefone', '$descricao', '$preco_venda', '$quantidade')";
-        $result = $conn->query($sql);
-
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -48,7 +19,7 @@
 
             <div class="formulario">
 
-                <form action="#" method="post">
+                <form action="infopedidos.php" method="post">
 
                     <h1>Solicitação de pedido</h1>
                     <input type="text" name="nome_cliente" placeholder="Digite o seu nome completo" required>
