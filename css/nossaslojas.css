@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.lojas {
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 15%;
+}

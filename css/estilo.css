@@ -23,29 +23,6 @@ main {
     display: flex;
 }
 
-ol, li {
-    padding-left: 15px;
-}
-
-
-.box_produto {
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-}
-
-/* Nossas lojas */
-
-.loja {
-    display: flex;
-    width: 100%;
-}
-
-.lojas {
-    margin-left: 100px;
-    display: block;
-    width: 40%;
-}
 
 /* Rodape - Texto */
 
@@ -53,64 +30,12 @@ ol, li {
     color:red;
 }
 
-/* Categoria produto */
-
-.categoria {
-    display: flex;
-}
-
-.categorias {
-    display: inline;
-    width: 88%;
-    text-align: center;
-}
-
-
-.categorias1{
-    display: block;
-    width: 12%;
-    margin-left: 5px;
-
-}
-
-.categorias1 button {
-    width: 200px;
-    font-size: 16px;
-    border-radius: 4px;
-}
-
-.categorias2 {
-    margin-left: 10px;
-}
 
 .preco {
     font-size: 22px;
     color: red;
 }
 
-/* MENU PRINCIPAL */
-
-.menu {
-    display: flex;
-    align-items: center;
-    background-color: #ff0000;
-    width: 100%;
-    height: 90px;
-}
-
-.menu_produtos {
-    display: flex;
-    align-items: center;
-    background-color: #ff0000;
-    width: 100%;
-    height: 90px;
-}
-
-.submenu {
-    display: block;
-    width: 25%;
-    text-align: center;
-}
 
 .msn_entrada {
     display: block;
@@ -127,56 +52,13 @@ ol, li {
     text-align: center;   
 }
 
-/* Fale conosco */
 
-.contatos {
-    display: flex;
-}
 
-/* Fale conosco - email */
-
-.contato {
-    width: 50%;
-}
-
-.contato img {
-    margin-top: 35px;
-    margin-left: 50%;
-    width: 170px;
-    height: 120px;
-}
-
-.contato p {
-    margin-top: 25px;
-    margin-left: 49%;
-
-}
-
-/* Fale conosco - telefone */
-
-.telefone {
-    width: 50%;
-}
-
-.telefone img {
-    margin-top: 10px;
-    margin-left: 25%;
-    width: 170px;
-    height: 170px;
-}
-
-.telefone p {
-    margin-left: 28%;
-}
 
 /* Fale conosco - Form */
 
 .sugestao {
     display: flex;
-}
-
-.comentarios {
-    margin-left: 40%;
 }
 
 .comentarios textarea {
@@ -185,24 +67,24 @@ ol, li {
 
 .pedidos {
     display: flex;
-    width: 100vw;
 
 }
 
-.painel-solic {
-    height: 100vh;
+.container_solic {
+    padding-top: 10%;
     display: flex;
     justify-content: center;
-    border-style: groove;
 }
 
 .formulario {
     display: flex;
+    width: 25%;
     align-items: center;
+    justify-content: center;
 }
 
 .formulario h1 {
-    margin-left: 90px;
+    text-align: center;
 }
 
 .formulario input {

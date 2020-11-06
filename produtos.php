@@ -22,43 +22,49 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Produtos - Full Stack Eletro</title>
+        <link rel="stylesheet" type="text/css" href="./css/produto.css">
         <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
         <script src="JS/funcoes.js"></script>
     </head>
     <body>
 
         <main>
-            <div class="menu_produtos">
-                <?php
-                    include_once('menu.html');
-                ?>
-            </div>
+            <?php
+                include_once('menu.html');
+            ?>
 
-            <header>
+            <div class="msn_entrada">
                 <br>
-                <h1 class="categorias2">Produtos</h1>
+                <h1>Produtos:</h1>
                 <br>
-            </header>
+            </div>
+                <hr>
+                <br>
             
             <br>
-            <section class="categoria">
+            <div class="container-fluid">
 
-            <section class="categorias1">
-                <h3>Categorias</h3>
-                <ol>
-                    <li onclick="exibir_todos('todos')">Todos (12)</li>
-                    <li onclick="exibir_categoria('geladeira')">Geladeiras (3)</li>
-                    <li onclick="exibir_categoria('fogao')">Fogões (2)</li>
-                    <li onclick="exibir_categoria('microondas')">Microondas (3)</li>
-                    <li onclick="exibir_categoria('lavaroupas')">Lavadoura de roupas (2)</li>
-                    <li onclick="exibir_categoria('lavaloucas')">Lava-louças (2)</li>
-                </ol>
-                <br>
-                <form action="pedidos.php" method="post">
+                <section class="categorias">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li onclick="exibir_todos('todos')">Todos (12)</li>
+                        <li onclick="exibir_categoria('geladeira')">Geladeiras (3)</li>
+                        <li onclick="exibir_categoria('fogao')">Fogões (2)</li>
+                        <li onclick="exibir_categoria('microondas')">Microondas (3)</li>
+                        <li onclick="exibir_categoria('lavaroupas')">Lavadoura de roupas (2)</li>
+                        <li onclick="exibir_categoria('lavaloucas')">Lava-louças (2)</li>
+                    </ul>
+                    <br>
+                    <form action="pedidos.php" method="post">
                         <button type="submit">Solicitar envio</button>
-                </form>
-            </section>
-                <div class="categorias">
+                    </form>
+                </section>
+                <section class="produtos">
 
                     <?php
 
@@ -89,8 +95,8 @@
 
                     
                     
-                </div>
-            </section>
+                </section>
+            </div>
 
             <br><br><br><br><br>
 
