@@ -1,13 +1,17 @@
-.container {
+
+.container-fluid {
     display: flex;
-    
 }
 
 section.produtos {
-    margin-left: 250px;
     border: 1px solid black;
     box-shadow: 3px 3px 3px rgba(0,0,0, 0.5);
 
+}
+
+.preco {
+    font-size: 22px;
+    color: red;
 }
 
 
@@ -33,4 +37,9 @@ section.categorias{
     width: 200px;
     font-size: 16px;
     border-radius: 4px;
+}
+
+
+.categorias preco {
+    
 }

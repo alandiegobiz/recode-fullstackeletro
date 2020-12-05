@@ -1,0 +1,21 @@
+.container {
+    margin-top: 200px;
+    display: flex;
+}
+
+.msn_entrada {
+    margin-left: -350px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rodape {   
+    flex-direction: column;
+    text-align: center;
+    margin-top: 365px;
+}
+
+#formas_pagamento {
+    color:red;
+}
